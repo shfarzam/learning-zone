@@ -146,7 +146,7 @@ echo $c;
 # Part 2 Interview Questions (Basic to Advanced)
 
 
-## Q. ***What is PHP?***
+## 1. ***What is PHP?***
 
 PHP or Hypertext Pre-processor is a general purpose programming language written in C and used by developers to create dynamic web applications. PHP Supports both Procedural Programming and Object Oriented Programming.
 
@@ -163,7 +163,7 @@ A hello world program is:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Is PHP case sensitive?***
+## 2. ***Is PHP case sensitive?***
 
 In PHP, variable names are case-sensitive but function names are not case sensitive. If we define function name in lowercase, but calling them in uppercase it will work. So, PHP can be called as partially case-sensitive language.
 
@@ -171,7 +171,7 @@ In PHP, variable names are case-sensitive but function names are not case sensit
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Is PHP weakly typed language?***
+## 3. ***Is PHP weakly typed language?***
 
 Yes, because we don’t need to mention the datatype of variables while declaring it. Variables are automatically type casted when the values are inserted in it.
 
@@ -179,7 +179,7 @@ Yes, because we don’t need to mention the datatype of variables while declarin
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How do we install PHP?***
+## 4. ***How do we install PHP?***
 
 PHP is a cross-platform language and we do have multiple choices to install PHP on different operating systems. We can download PHP from official website and install it or we can make use of popular bundles like XAMPP and WAMP for Windows, LAMP for Linux and MAMP for iOS.
 
@@ -189,7 +189,7 @@ PHP is a cross-platform language and we do have multiple choices to install PHP 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is Composer?***
+## 5. ***What is Composer?***
 
 Composer is an application-level package manager for the PHP applications that provides a standard system for managing dependencies of different libraries and others. Some of the features of composer are:
 
@@ -220,7 +220,7 @@ To manage dependencies, composer uses composer.json file, which looks like:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to check current PHP version and other information about our system?***
+## 6. ***How to check current PHP version and other information about our system?***
 
 We can use function `php_info();` inside scripts and using command `php -v` from command line.
 
@@ -228,7 +228,7 @@ We can use function `php_info();` inside scripts and using command `php -v` from
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is interpreter?***
+## 7. ***What is interpreter?***
 
 PHP interpreter executes command from a PHP script line by line and provides the output to the executer.
 
@@ -236,7 +236,7 @@ PHP interpreter executes command from a PHP script line by line and provides the
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Is PHP compiled or interpreted?***
+## 8. ***Is PHP compiled or interpreted?***
 
 Both, PHP is compiled down to an intermediate bytecode that is then interpreted by the runtime engine.
 
@@ -253,7 +253,7 @@ then, *PHP Interpretor* does:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain datatypes in PHP?***
+## 9. ***Explain datatypes in PHP?***
 
 Built-in datatypes in PHP:
 
@@ -266,14 +266,14 @@ Built-in datatypes in PHP:
 **NULL** - no value
 **Resource** - stores a reference to functions and resources external to PHP
 
-## Q. ***What are rules for naming a variable?***
+## 10. ***What are rules for naming a variable?***
 
 Rules for naming a variable are following −
 
 - Variable names must begin with a letter or underscore character.
 - A variable name can consist of numbers, letters, underscores but you cannot use characters like + , - , % , ( , ) . & , etc.
 
-## Q. ***How will you define a constant?***
+## 11. ***How will you define a constant?***
 
 To define a constant you have to use `define()` function and to retrieve the value of a constant, you have to simply specifying its name. Unlike with variables, you do not need to have a constant with a $.
 
@@ -286,7 +286,7 @@ echo MINSIZE;
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the purpose of constant() function?***
+## 12. ***What is the purpose of constant() function?***
 
 As indicated by the name, this function will return the value of the constant. This is useful when you want to retrieve value of a constant, but you do not know its name, i.e. It is stored in a variable or returned by a function.
 
@@ -302,7 +302,7 @@ Only scalar data (boolean, integer, float and string) can be contained in consta
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the differences between constants and variables?***
+## 13. ***What are the differences between constants and variables?***
 
 - There is no need to write a dollar sign ($) before a constant, where as in variable one has to write a dollar sign.
 - Constants cannot be defined by simple assignment, they may only be defined using the `define()` function.
@@ -313,7 +313,7 @@ Only scalar data (boolean, integer, float and string) can be contained in consta
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the different scopes of variables?***
+## 14. ***What are the different scopes of variables?***
 
 Variable scope is known as its boundary within which it can be visible or accessed from code. In other words, it is the context within which a variable is defined. There are only two scopes available in PHP namely local and global scopes.
 
@@ -328,7 +328,7 @@ When a variable is accessed outside its scope it will cause PHP error undefined 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is string?***
+## 15. ***What is string?***
 
 A string is a data type used to represent text. It is a set of characters that can also contain spaces and numbers. For example, the word "Bootsity" and the phrase "Bootsity PHP Tutorials" are both strings.
 To declare strings we can write:
@@ -341,7 +341,7 @@ $string = "bootsity";
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the difference between single quoted string and double quoted string?***
+## 16. ***What is the difference between single quoted string and double quoted string?***
 
 Singly quoted strings are treated almost literally, whereas doubly quoted strings replace variables with their values as well as specially interpreting certain character sequences.
 
@@ -364,7 +364,7 @@ My name will print
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you convert string into array elements?***
+## 17. ***How can you convert string into array elements?***
 
 `explode()` function breaks a string into an array. Each of the array elements is a substring of string formed by splitting it on boundaries formed by the string delimiter.
 
@@ -378,7 +378,7 @@ explode(separator,string,limit);
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you convert array into strings?***
+## 18. ***How can you convert array into strings?***
 
 The `implode()` function returns a string from the elements of an array.
 The `implode()` function accept its parameters in either order.
@@ -394,7 +394,7 @@ implode(separator,array)
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you concatenate two or more strings?***
+## 19. ***How can you concatenate two or more strings?***
 
 To concatenate two string variables together, use the dot (.) operator.
 
@@ -416,7 +416,7 @@ Hi! i am 50
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between echo and print()?***
+## 20. ***Differentiate between echo and print()?***
 
 echo and print are more or less the same. They are both used to output data to the screen.
 
@@ -429,7 +429,7 @@ The differences are:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain static variables?***
+## 21. ***Explain static variables?***
 
 The variables declared as function parameters, which are destroyed on the function\'s exit, a static variable will not lose its value when the function exits and will still hold that value should the function be called again.
 
@@ -455,7 +455,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are PHP magic constants?***
+## 22. ***What are PHP magic constants?***
 
 PHP provides a large number of predefined constants to any script which it runs known as magic constants. PHP magic constants start and end with underscore _
 
@@ -469,7 +469,7 @@ Example:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Why do we need trim() function?***
+## 23. ***Why do we need trim() function?***
 
 The trim() function removes whitespaces or other predefined characters from either of the sides(beginning and ending) of a string.
 
@@ -477,7 +477,7 @@ The trim() function removes whitespaces or other predefined characters from eith
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Can you count the number of words in a string?***
+## 24. ***Can you count the number of words in a string?***
 
 The `str_word_count()` function counts the number of words in a string.
 
@@ -495,7 +495,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to reverse a string?***
+## 25. ***How to reverse a string?***
 
 `strrev()` reverses a string.
 
@@ -515,7 +515,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to find the position of a specific text in a string?***
+## 26. ***How to find the position of a specific text in a string?***
 
 `strpos()` returns the position of the first occurrence of a string inside another string (case-sensitive). Also note that string positions start at 0, and not 1.
 
@@ -532,7 +532,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you change cases in a string?***
+## 27. ***How can you change cases in a string?***
 
 The `strtoupper()` function converts a string to uppercase and `strtolower()` function converts a string to lowercase.
 
@@ -554,7 +554,7 @@ hello world!
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Can you replace a substring?***
+## 28. ***Can you replace a substring?***
 
 The built-in function `str_replace()` replaces some characters in a string (case-sensitive).
 
@@ -570,7 +570,7 @@ Here we have replaced the characters "world" in the string "Hello world!" with "
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between str_replace() and str_ireplace()?***
+## 29. ***Differentiate between str_replace() and str_ireplace()?***
 
 The `str_ireplace()` function php is not sensitive rule and will treat "abc","ABC" all combination as a single.
 The `str_ireplace()` will be less faster becuse it need to convert to the same case. But the difference will be very little event in a large data.
@@ -580,7 +580,7 @@ The `str_replace()` function is a case sensitive which means that it replaces th
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between printf() and print()?***
+## 30. ***Differentiate between printf() and print()?***
 
 `printf()` outputs a formatted string whereas `print()` outputs one or more strings.
 
@@ -614,7 +614,7 @@ There are 9 million bicycles in Beijing.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between strstr() & strchr() functions?***
+## 31. ***Differentiate between strstr() & strchr() functions?***
 
 Both the functions finds the first occurrence of a string inside another string so there is no difference. both are alias of each other.
 
@@ -622,7 +622,7 @@ Both the functions finds the first occurrence of a string inside another string 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between strstr() and stristr()?***
+## 32. ***Differentiate between strstr() and stristr()?***
 
 `stristr()` and `strstr()` both finds the first occurrence of a string inside another string where stristr is case-insensitive but `strstr()` is case sensitive.
 
@@ -630,7 +630,7 @@ Both the functions finds the first occurrence of a string inside another string 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Can you encode a string in PHP?***
+## 33. ***Can you encode a string in PHP?***
 
 `string urlencode (string $str )` function is used to encode a string in PHP. This function is convenient when encoding a string to be used in a query part of a URL, as a convenient way to pass variables to the next page.
 
@@ -638,7 +638,7 @@ Both the functions finds the first occurrence of a string inside another string 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between strcmp() and strncmp()?***
+## 34. ***Differentiate between strcmp() and strncmp()?***
 
 Both the functions compare 2 strings(case-sensitive) but `strncmp()` compares the strings upto N numbers.
 
@@ -670,7 +670,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Is it possible to remove the HTML tags from data?***
+## 35. ***Is it possible to remove the HTML tags from data?***
 
 The `strip_tags()` function strips a string from HTML, XML, and PHP tags.
 
@@ -678,7 +678,7 @@ The `strip_tags()` function strips a string from HTML, XML, and PHP tags.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the use of gettype() in PHP?***
+## 36. ***What is the use of gettype() in PHP?***
 
 The `gettype()` is a predefined PHP function which is used to know the datatype of any variable.
 
@@ -686,7 +686,7 @@ The `gettype()` is a predefined PHP function which is used to know the datatype 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is heredoc and nowdoc?***
+## 37. ***What is heredoc and nowdoc?***
 
 heredoc and nowdoc allows strings to be defined in more than one line without string concatenation. A nowdoc is specified similarly to a heredoc, but no parsing is done inside a nowdoc. The construct is ideal for embedding PHP code or other large blocks of text without the need for escaping.
 
@@ -736,7 +736,7 @@ for PHP, Laravel and Angular Tutorials
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain if-else statement?***
+## 38. ***Explain if-else statement?***
 
 The if statement is a way to make decisions based upon the result of a condition.
 For example:
@@ -760,7 +760,7 @@ Pass
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain switch statement with example?***
+## 39. ***Explain switch statement with example?***
 
 Switch statement works same as if statements. However the difference is that they can check for multiple values. Also, you can do the same with multiple if..else statements, but this is not always the best approach.
 
@@ -792,7 +792,7 @@ rose costs $2.50
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between switch and if-else statement?***
+## 40. ***Differentiate between switch and if-else statement?***
 
 - **Check the testing expression**: An if-then-else statement can test expressions based on ranges of values or conditions, whereas a switch statement tests expressions based only on a single integer, enumerated value, or string.
 
@@ -808,7 +808,7 @@ rose costs $2.50
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the different types of operators?***
+## 41. ***What are the different types of operators?***
 
 1. Arithmetic operators
 2. Assignment operators
@@ -820,7 +820,7 @@ rose costs $2.50
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain arithmetic operators?***
+## 42. ***Explain arithmetic operators?***
 
 | Operator      | Use           |
 | ------------- |-------------|
@@ -834,7 +834,7 @@ rose costs $2.50
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the assignment operators?***
+## 43. ***Explain the assignment operators?***
 
 `$a = 10;`
 
@@ -844,7 +844,7 @@ stores the value 10 in the variable $a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the logical operators?***
+## 44. ***Explain the logical operators?***
 
 | Operator      | Use           |
 | ------------- |-------------|
@@ -856,7 +856,7 @@ stores the value 10 in the variable $a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the unary operators?***
+## 45. ***Explain the unary operators?***
 
 | Operator      | Use           |
 | ------------- |-------------|
@@ -867,7 +867,7 @@ stores the value 10 in the variable $a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the comparison operators?***
+## 46. ***Explain the comparison operators?***
 
 | Operator      | Use           |
 | ------------- |-------------|
@@ -884,7 +884,7 @@ stores the value 10 in the variable $a
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Differentiate between === and == operators in PHP?***
+## 47. ***Differentiate between === and == operators in PHP?***
 
 The operator == casts between two different types if they are different, while the === operator performs a typesafe comparison that means it will only return true if both operands have the same type and the same value.
 
@@ -902,7 +902,7 @@ Examples:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain pre and post increment with example?***
+## 48. ***Explain pre and post increment with example?***
 
 | Operator      | Use           | Explanation |
 | ------------- |-------------|---------------|
@@ -915,7 +915,7 @@ Examples:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do you mean by operator overloading?***
+## 49. ***What do you mean by operator overloading?***
 
 Operator overloading (less commonly known as ad-hoc polymorphism) is a specific case of polymorphism (part of the OO nature of the language) in which some or all operators like +, = or == are treated as polymorphic functions and as such have different behaviors depending on the types of its arguments. Operator overloading is usually only syntactic sugar. It can easily be emulated using function calls.
 
@@ -923,7 +923,7 @@ Operator overloading (less commonly known as ad-hoc polymorphism) is a specific 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How many loops are available in PHP?***
+## 50. ***How many loops are available in PHP?***
 
 There are several types of loops in PHP.
 
@@ -936,7 +936,7 @@ There are several types of loops in PHP.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain while loop with example?***
+## 51. ***Explain while loop with example?***
 
 - The while loop evaluates the test expression.
 - If the test expression is true (nonzero), codes inside the body of while loop are executed. The test expression is evaluated again. The process goes on until the test expression is false.
@@ -966,7 +966,7 @@ The number is: 5
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain do-while loop with example?***
+## 52. ***Explain do-while loop with example?***
 
 The do...while loop will always execute the block of code once, it will then check the condition, and repeat the loop while the specified condition is true.
 
@@ -986,7 +986,7 @@ In the above example, first a variable $x is set to 1 ($x = 1). Then, the do whi
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain for loop with example?***
+## 53. ***Explain for loop with example?***
 
 ```php
 for (init counter; test counter; increment counter) {
@@ -1027,7 +1027,7 @@ The number is: 10
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain foreach loop with example?***
+## 54. ***Explain foreach loop with example?***
 
 The foreach provides an easy way to iterate over associative arrays. foreach works only on arrays and objects, and will issue an error when you try to use it on a variable with a different data type or an uninitialized variable. There are two syntaxes:
 
@@ -1047,7 +1047,7 @@ The second form will additionally assign the current element's key to the $key v
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you implement an infinite loop in PHP?***
+## 55. ***How can you implement an infinite loop in PHP?***
 
 This 3 loops can be used to achieve infinite loops in PHP.
 1. while
@@ -1077,7 +1077,7 @@ In all the above 3 cases, the loops will execute infinite times as the condition
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you implement recursion in PHP?***
+## 56. ***How can you implement recursion in PHP?***
 
 Recursion is the phenomenon of calling a function from within itself.
 
@@ -1108,7 +1108,7 @@ The factorial of 5 is: 120
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain break statement with example?***
+## 57. ***Explain break statement with example?***
 
 When a break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop. It can be used to terminate a case in the switch statement.
 
@@ -1132,7 +1132,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain continue statement with example?***
+## 58. ***Explain continue statement with example?***
 
 The continue statement is used inside loops. When a continue statement is encountered inside a loop, control jumps to the beginning of the loop for next iteration, skipping the execution of statements inside the body of loop for the current iteration.
 
@@ -1155,7 +1155,7 @@ Output:
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Give example of declaration in php?***
+## 59. ***Give example of declaration in php?***
 
 The declare construct is used to set execution directives for a block of code. The syntax of declare is similar to the syntax of other flow control constructs:
 
@@ -1185,7 +1185,7 @@ tick_handler() called tick_handler() called tick_handler() called 3tick_handler(
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is require in PHP?***
+## 60. ***What is require in PHP?***
 
 Require is identical to include except upon failure it will also produce a fatal E_COMPILE_ERROR level error. In other words, it will halt the script whereas include only emits a warning (E_WARNING) which allows the script to continue.
 
@@ -1198,7 +1198,7 @@ require('somefile.php');
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is an array?***
+## 61. ***What is an array?***
 
 An array is a data structure which is a collection of elements having same datatype stored in a contiguous memory location.
 
@@ -1221,7 +1221,7 @@ $cars = array("Volvo", "BMW", "Toyota"); // initialization
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you print an array in PHP?***
+## 62. ***How can you print an array in PHP?***
 
 1. Using print_r() method:
 
@@ -1277,7 +1277,7 @@ array(3) {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do we mean by the base address of an array?***
+## 63. ***What do we mean by the base address of an array?***
 
 The base address of an array is the memory location of the first element present in the array i.e., the 0th index element.
 
@@ -1285,7 +1285,7 @@ The base address of an array is the memory location of the first element present
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do we mean by keys and values?***
+## 64. ***What do we mean by keys and values?***
 
 In associative arrays, we can use named keys that you assign to them.
 There are two ways to create an associative array:
@@ -1305,7 +1305,7 @@ $age['Joe'] = "43";
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the keys & values in an indexed array?***
+## 65. ***What are the keys & values in an indexed array?***
 
 ```php
 Array ( [0] => Hello [1] => world [2] => It's [3] => a [4] => beautiful [5] => day)
@@ -1317,7 +1317,7 @@ The keys of an indexed array are 0, 1, 2 etc(the index values) and values are "H
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we convert array into string?***
+## 66. ***How can we convert array into string?***
 
 The implode() function returns a string from the elements of an array.
 The implode() function accept its parameters in either order. However, for consistency with explode(), you should use the documented order of arguments.
@@ -1339,7 +1339,7 @@ Hello World! Beautiful Day!
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we convert a string into an array elements?***
+## 67. ***How can we convert a string into an array elements?***
 
 The explode() function breaks a string into an array.
 
@@ -1375,7 +1375,7 @@ Array (
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we concatenate arrays in PHP?***
+## 68. ***How can we concatenate arrays in PHP?***
 
 Using the `array_merge()` method. The array_merge() function merges one or more arrays into one array.
 
@@ -1402,7 +1402,7 @@ Array (
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Which function counts all the values of an array?***
+## 69. ***Which function counts all the values of an array?***
 
 `array_count_values()` function is used to count the frequency of values in an array.
 `array_count_values()` returns an associative array that has the values of the given array as the keys and frequency as the values.
@@ -1429,7 +1429,7 @@ Array
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we check if an element exists in an array?***
+## 70. ***How can we check if an element exists in an array?***
 
 The `in_array()` function is used to search for the given string in an array. It returns TRUE if the given string is found in the array, and FALSE otherwise.
 
@@ -1437,7 +1437,7 @@ The `in_array()` function is used to search for the given string in an array. It
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Which function inserts an element to the end of an array?***
+## 71. ***Which function inserts an element to the end of an array?***
 
 PHP `array_push()` function is used to insert one or more elements to the end of an array.
 
@@ -1445,7 +1445,7 @@ PHP `array_push()` function is used to insert one or more elements to the end of
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the use of array_chunk() function?***
+## 72. ***What is the use of array_chunk() function?***
 
 The `array_chunk()` function is used to split an array into parts or chunks of new arrays.
 
@@ -1461,7 +1461,7 @@ The first parameter specifies an array and the second parameter defines the size
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Why do we use extract()?***
+## 73. ***Why do we use extract()?***
 
 The `extract()` function imports variables into the local symbol table from an array.
 This function uses array keys as variable names and values as variable values. For each element it will create a variable in the current symbol table.
@@ -1486,7 +1486,7 @@ $a = Cat; $b = Dog; $c = Horse
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is a function?***
+## 74. ***What is a function?***
 
 A named section of a program that performs a specific task is called a function. In this sense, a function is a type of procedure or routine.
 
@@ -1494,7 +1494,7 @@ A named section of a program that performs a specific task is called a function.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the different types of functions?***
+## 75. ***What are the different types of functions?***
 
 1. Built-in functions
 2. User defined functions
@@ -1503,12 +1503,12 @@ A named section of a program that performs a specific task is called a function.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Classify function on basis of parameters?***
+## 76. ***Classify function on basis of parameters?***
 
 1. Non parameterized function
 2. Parameterized function
 
-## Q. ***Differentiate between parameterized and non parameterized functions?***
+## 77. ***Differentiate between parameterized and non parameterized functions?***
 
 - Non parameterized functions do not take any parameter at the time of calling.
 - Parameterized functions take one or more arguments while calling. These are used at run time of the program when output depends on dynamic values given at run time
@@ -1517,7 +1517,7 @@ A named section of a program that performs a specific task is called a function.
 1. call by value : (here we pass the value directly )
 2. call by reference : (here we pass the address location where the value is stored)
 
-## Q. ***Does PHP support both call by value and call by reference?***
+## 78. ***Does PHP support both call by value and call by reference?***
 
 Yes.
 
@@ -1525,7 +1525,7 @@ Yes.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain call by value?***
+## 79. ***Explain call by value?***
 
 In case of PHP call by value, actual value is not modified if it is modified inside the function.
 
@@ -1550,7 +1550,7 @@ Hello
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain call by reference?***
+## 80. ***Explain call by reference?***
 
 In case of call by reference, actual value is modified if it is modified inside the function. In such case, we need to use `&` symbol with formal arguments. The & represents reference of the variable.
 
@@ -1574,7 +1574,7 @@ This is Call By Reference
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the function declaration rules?***
+## 81. ***What are the function declaration rules?***
 
 A valid function name starts with a letter or underscore, followed by any number of letters, numbers, or underscores.
 
@@ -1582,7 +1582,7 @@ A valid function name starts with a letter or underscore, followed by any number
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we declare user defined functions?***
+## 82. ***How can we declare user defined functions?***
 
 Using the `function` keyword.
 
@@ -1599,7 +1599,7 @@ function foo($arg_1, $arg_2, /* ..., */ $arg_n) {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do we mean by actual and formal parameters?***
+## 83. ***What do we mean by actual and formal parameters?***
 
 Arguments which are mentioned in the function call is known as the actual arguments. For example:
 
@@ -1622,7 +1622,7 @@ Here n is the formal parameters.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Maximum how many arguments are allowed in a function in PHP?***
+## 84. ***Maximum how many arguments are allowed in a function in PHP?***
 
 There is no limit but you can use `func_get_args()`, `func_get_arg()` and `func_num_args()` to avoid writing all the arguments in the function definition.
 
@@ -1630,7 +1630,7 @@ There is no limit but you can use `func_get_args()`, `func_get_arg()` and `func_
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain header()?***
+## 85. ***Explain header()?***
 
 The header() function sends a raw HTTP header to a client.
 
@@ -1646,7 +1646,7 @@ Here the `string` specifies the header string to send.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do we mean by return type of a function?***
+## 86. ***What do we mean by return type of a function?***
 
 The return type is similar to a datatype of a function. The common return types are: int, string, float, boolean etc. All the functions donot always need to have a return type.
 
@@ -1654,7 +1654,7 @@ The return type is similar to a datatype of a function. The common return types 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the return type of a function that doesn't return anything?***
+## 87. ***What is the return type of a function that doesn't return anything?***
 
 `void` which mean nothing.
 
@@ -1662,7 +1662,7 @@ The return type is similar to a datatype of a function. The common return types 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Do we need to mention the return type of a function explicitly in PHP?***
+## 88. ***Do we need to mention the return type of a function explicitly in PHP?***
 
 No need to specify return type upon declaration but needs to use `return` statement within the body of the function.
 
@@ -1670,7 +1670,7 @@ No need to specify return type upon declaration but needs to use `return` statem
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is function that can be used to build a function that accepts any number of arguments?***
+## 89. ***What is function that can be used to build a function that accepts any number of arguments?***
 
 `func_num_args()` returns the number of arguments passed to the function.
 `func_get_args(void)`
@@ -1680,7 +1680,7 @@ Gets an array of the function's argument list.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the `return` statement?***
+## 90. ***Explain the `return` statement?***
 
 return statement immediately terminates the execution of a function when it is called from within that function.
 If no parameter is supplied	NULL is returned.
@@ -1689,7 +1689,7 @@ If no parameter is supplied	NULL is returned.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Can we use multiple return statements in a function?***
+## 91. ***Can we use multiple return statements in a function?***
 
 Yes but not in consecutive lines. We should then use the statements upon different conditions otherwise it will throw an error.
 
@@ -1708,7 +1708,7 @@ function demo() {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the use of ini_set()?***
+## 92. ***What is the use of ini_set()?***
 
 PHP allows the user to modify some of its settings mentioned in php.ini using ini_set(). This function requires two string arguments. First one is the name of the setting to be modified and the second one is the new value to be assigned to it.
 
@@ -1722,7 +1722,7 @@ We need to put the above statement, at the top of the script so that, the settin
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the difference between unlink and unset functions?***
+## 93. ***What is the difference between unlink and unset functions?***
 
 `unlink()` function is useful for file system handling. We use this function when we want to delete the files (physically). Example:
 
@@ -1751,7 +1751,7 @@ unset($val1, $val2, $val3); // remove multiple variables
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How ereg() function works?***
+## 94. ***How ereg() function works?***
 
 The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.
 
@@ -1759,7 +1759,7 @@ The ereg() function searches a string specified by string for a string specified
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How eregi() function works?***
+## 95. ***How eregi() function works?***
 
 eregi() − The eregi() function searches throughout a string specified by pattern for a string specified by string. The search is not case sensitive.
 
@@ -1767,7 +1767,7 @@ eregi() − The eregi() function searches throughout a string specified by patte
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the purpose of getdate() function?***
+## 96. ***What is the purpose of getdate() function?***
 
 The function getdate() optionally accepts a time stamp and returns an associative array containing information about the date. If you omit the time stamp, it works with the current time stamp as returned by time().
 
@@ -1775,7 +1775,7 @@ The function getdate() optionally accepts a time stamp and returns an associativ
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the purpose of date() function?***
+## 97. ***What is the purpose of date() function?***
 
 The date() function returns a formatted string representing a date. You can exercise an enormous amount of control over the format that date() returns with a string argument that you must pass to it.
 
@@ -1783,7 +1783,7 @@ The date() function returns a formatted string representing a date. You can exer
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How will you call member functions of a class?***
+## 98. ***How will you call member functions of a class?***
 
 After creating your objects, you will be able to call member functions related to that object. One member function will be able to process member variable of related object only. Following example shows how to set title and prices for the three books by calling member functions.
 
@@ -1800,7 +1800,7 @@ $maths−>setPrice(7);
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can we display the correct URL of the current webpage?***
+## 99. ***How can we display the correct URL of the current webpage?***
 
 ```php
 echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
@@ -1811,7 +1811,7 @@ gives us the entire URL of the current webpage.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to get the information about the uploaded file in the receiving script?***
+## 100. ***How to get the information about the uploaded file in the receiving script?***
 
 ```php
 $_FILES[$fieldName]['name'] // The Original file name on the browser system. 
@@ -1825,7 +1825,7 @@ $_FILES[$fieldName]['error'] // The error code associated with this file upload.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do we mean by server?***
+## 101. ***What do we mean by server?***
 
 A server is a computer program that provides a service to another computer programs (and its user).
 In the client/server programming model, a server program awaits and fulfills requests from client programs, which may be running in the same or other computers.
